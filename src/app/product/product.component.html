@@ -1,0 +1,9 @@
+<ul class="product-item">
+    <li>Name: {{ this.product.name }}</li>
+    <li>Description: {{ this.product.description }}</li>
+    <li>Price: {{ this.product.price }}</li>
+    <li>Category: {{ this.product.category }}</li>
+    <li>Available: {{ this.product.isAvailable }}</li>
+  </ul>
+
+<button (click)="onBuy($event)">Buy</button>
